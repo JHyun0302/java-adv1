@@ -8,6 +8,7 @@ import java.util.Queue;
 
 /**
  * Object.wait(), notify(), notifyAll()
+ * 스레드가 대기하는 대기 집합이 하나이기 때문에, 원하는 스레드를 선택해서 깨울 수 없다는 문제
  */
 public class BoundedQueueV3 implements BoundedQueue {
 
